@@ -18,7 +18,7 @@ public class FreelancerServiceTest {
 //    void testCalculateMonthsOfRestExample1() {
 //        FreelancerService service = new FreelancerService();
 //        int result = service.calculate(10000, 3000, 20000);
-//        assertEquals(4, result); // Ожидаем 4 месяца отдыха
+//        assertEquals(6, result); // Ожидаем 6 месяца отдыха
 //    }
 //
 //    @Test
@@ -27,4 +27,3 @@ public class FreelancerServiceTest {
 //        int result = service.calculate(100000, 60000, 150000);
 //        assertEquals(3, result); // Ожидаем 3 месяца отдыха
 //    }
-

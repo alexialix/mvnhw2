@@ -19,3 +19,5 @@ public class Main {
         System.out.println("Пример 2: месяцев отдыха = " + monthsRest2);
     }
 }
+
+

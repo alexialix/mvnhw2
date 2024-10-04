@@ -8,10 +8,10 @@ public class FreelancerService {
         for (int month = 0; month < 12; month++) {
             if (money >= threshold) {
                 count++;  // увеличиваем счетчик месяцев отдыха
-                money = money - expenses;  // оплачиваем обязательные расходы
-                money = money - (money / 3);  // уменьшаем остаток денег на треть
+                money -= expenses;  // оплачиваем обязательные расходы
+                money /= 3;
             } else {
-                money = money + income - expenses;  // зарабатываем и оплачиваем обязательные расходы
+                money += income - expenses;  // зарабатываем и оплачиваем обязательные расходы
             }
         }
 
